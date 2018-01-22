@@ -92,6 +92,7 @@
 <script> 
  $(document).ready(function(){
   document.getElementById('main-container').style.marginTop=document.getElementById("head-line").offsetHeight+"px";
+  console.log(document.getElementById("head-line").offsetHeight+"px");
   $(window).resize(function(){
    document.getElementById('main-container').style.marginTop=document.getElementById("head-line").offsetHeight+"px";
   });

@@ -10,7 +10,7 @@
  });
 </script>
 <script>
- $(".top-line-menu").on("click","> span", function (event){
+ $(".top-line__menu").on("click","> span", function (event){
   $(".scroll").css("display","none");
  });
 </script>
